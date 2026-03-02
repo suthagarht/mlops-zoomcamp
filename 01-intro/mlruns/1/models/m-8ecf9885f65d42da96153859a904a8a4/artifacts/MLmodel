@@ -1,0 +1,22 @@
+artifact_path: /workspaces/mlops-zoomcamp/01-intro/mlruns/1/models/m-8ecf9885f65d42da96153859a904a8a4/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.13.9
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.core.Booster
+    model_format: ubj
+    xgb_version: 3.2.0
+mlflow_version: 3.10.0
+model_id: m-8ecf9885f65d42da96153859a904a8a4
+model_size_bytes: 1753294
+model_uuid: m-8ecf9885f65d42da96153859a904a8a4
+prompts: null
+run_id: ee38a6ff4ab94653bd174e51fdb0f995
+utc_time_created: '2026-02-24 16:22:12.348126'
